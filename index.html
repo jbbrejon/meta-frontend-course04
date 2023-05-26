@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Encoding -->
+    <meta charset="UTF-8">
+    <!-- Viewport settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title-->
+    <title>Home - Little Lemon Restaurant</title>
+    <!-- Link to CSS file-->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Link to Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Meta tags for search engines -->
+    <meta name="author" content="Jean-Baptiste BREJON">
+    <meta name="description"
+        content="Coursera, Meta Front-End, Course 4 Week3, Graded Assessment, Little Lemon Restaurant">
+    <!-- OpenGraph tags for social networks-->
+    <meta property="og:title" content="Home - Little Lemon Restaurant" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://localhost:5500/" />
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/jbbrejon/Meta-FrontEnd-Course04/main/assets/Asset%2016%404x.png" />
+</head>
+
+<body>
+    <!-- Wrapper for whole page -->
+    <div id="wrapper">
+
+        <!-- Page header (logo + nav) -->
+        <header>
+
+            <!-- Brand logo -->
+            <img src="https://raw.githubusercontent.com/jbbrejon/Meta-FrontEnd-Course04/main/assets/Asset%2016%404x.png"
+                alt="Little Lemon Restaurant logo">
+
+            <!-- Navigation menu -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <!-- '#'' in href attribute to avoid errors (pages not yet existing) -->
+                    <li><a href=#>Menu</a></li>
+                    <li><a href=#>Book</a></li>
+                    <li><a href=#>About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main content -->
+        <main>
+
+            <!-- Hero with announcement and background picture -->
+            <div id="hero">
+                <h1>30% Off This Weekend</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias omnis perferendis eaque odit
+                    cupiditate ipsum veniam consequuntur alias fugiat perspiciatis eligendi veritatis placeat sequi
+                    iusto itaque magnam ipsa, rem enim!</p>
+            </div>
+
+            <!-- Sections containing all articles -->
+            <section>
+
+                <!-- Define header after section tag (best pratices). Hidden except for screen readers only-->
+                <h2 class="sr-only">Articles</h2>
+
+                <!-- Article with header, image, paragraph and link -->
+                <article>
+                    <h3>Our New Menu</h3>
+                    <img src="https://raw.githubusercontent.com/jbbrejon/Meta-FrontEnd-Course04/main/assets/new-menu.jpg"
+                        alt="Mediterranean Lemon Butter Chicken">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt accusamus exercitationem
+                        enim magni cum perspiciatis quae rerum tenetur quo sint nobis, ratione fugiat officiis nemo
+                        nihil hic! Inventore, ut?</p>
+                    <!-- '#'' in href attribute to avoid errors (pages not yet existing) -->
+                    <a href=#>See our new menu</a>
+                </article>
+
+                <!-- Article with header, image, paragraph and link -->
+                <article>
+                    <h3>Book a table</h3>
+                    <img src="https://raw.githubusercontent.com/jbbrejon/Meta-FrontEnd-Course04/main/assets/table.webp"
+                        alt="Restaurant table">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, saepe rem. Enim quae officia
+                        saepe soluta nostrum exercitationem blanditiis at, autem placeat ad dicta debitis corrupti,
+                        numquam quaerat illum ipsum.</p>
+                    <!-- '#'' in href attribute to avoid errors (pages not yet existing) -->
+                    <a href=#>Book your table now</a>
+                </article>
+
+                <!-- Article with header, image, paragraph and list -->
+                <article>
+                    <h3>Opening hours</h3>
+                    <img src="https://raw.githubusercontent.com/jbbrejon/Meta-FrontEnd-Course04/main/assets/opening-hours.jpg"
+                        alt="Italian waitress">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis at corrupti, expedita hic
+                        asperiores blanditiis ducimus amet nam illo ipsa sequi quidem!</p>
+                    <ul>
+                        <li>Mon - Fri: 2pm - 10pm</li>
+                        <li>Sat: 2pm - 11pm</li>
+                        <li>Sun: 2pm - 9pm</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+        <!-- Footer with logo and copyright -->
+        <footer>
+            <img src="https://raw.githubusercontent.com/jbbrejon/Meta-FrontEnd-Course04/main/assets/Asset%2020%404x.png"
+                alt="Little Lemon Restaurant logo">
+            <!-- Small tag for copyright (best practice)-->
+            <small>Copyright Little Lemon</small>
+        </footer>
+    </div>
+
+</body>
+
+</html>
