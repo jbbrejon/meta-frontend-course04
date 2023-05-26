@@ -1,0 +1,219 @@
+ /* Universal selector */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* Define background color and font family */
+ body {
+     background-color: #EFF0EE;
+     font-family: 'Roboto Slab', serif;
+ }
+
+ /* Hidden and readable for screen readers */
+ .sr-only {
+     position: absolute;
+     left: -10000px;
+     width: 1px;
+     height: 1px;
+     top: auto;
+     overflow: hidden;
+ }
+
+ /* Flex layout for page wrapper */
+ #wrapper {
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+     max-width: 1280px;
+     min-height: 100vh;
+     padding: 0 20px;
+ }
+
+ /* Page header */
+ header {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     margin: 20px 0;
+ }
+
+ /* Logo */
+ header img {
+     height: 120px;
+ }
+
+ /* Navigation menu */
+ nav {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     margin-top: 20px;
+     background-color: #495E57;
+     border-radius: 15px;
+ }
+
+ nav ul {
+     display: flex;
+     list-style: none;
+ }
+
+ nav li {
+     display: flex;
+     padding: 10px;
+
+ }
+
+ /* Links in Navigation menu */
+ li a {
+     text-decoration: none;
+     color: white;
+     font-size: 24px;
+     transition: 0.5s;
+ }
+
+ /* Hover effect for links in navigation menu */
+ li a:hover {
+     color: #F4CE14;
+     cursor: pointer;
+ }
+
+ /* Flex layout for main content */
+ main {
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+ }
+
+ /* Hero */
+ #hero {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 230px;
+     border-radius: 15px;
+     padding: 20px;
+     background-image: url('https://raw.githubusercontent.com/jbbrejon/Meta-FrontEnd-Course04/main/assets/hero.jpg');
+ }
+
+
+ #hero h1 {
+     display: flex;
+     font-size: 40px;
+     font-weight: bold;
+     color: #F4CE14;
+ }
+
+ #hero p {
+     display: flex;
+     width: 60%;
+     font-size: 16px;
+     color: white;
+     text-shadow: 1px 1px 1px #F4CE14;
+
+ }
+
+ /* Articles section */
+ section {
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+     margin: 20px 0;
+     width: 100%;
+ }
+
+ /* Article */
+ article {
+     display: flex;
+     flex: 1;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 32%;
+     padding: 20px;
+     background-color: #F4E5D6;
+     border-radius: 15px;
+     transition: 0.5s;
+ }
+
+ /* Hover effect on article (reduce opacity) */
+ article:hover {
+     opacity: 0.8;
+ }
+
+ article h3 {
+     font-size: 28px;
+     font-weight: bold;
+     margin: 10px 0;
+     color: #495E57;
+ }
+
+ article img {
+     height: 250px;
+     object-fit: cover;
+     margin: 20px 0;
+     transition: 0.5s;
+ }
+
+
+ article p {
+     font-size: 14px;
+     font-weight: 500;
+     color: rgb(66, 63, 63);
+ }
+
+
+
+ /* Links in article */
+ article a {
+     color: #2f8585;
+     font-size: 14px;
+     font-weight: bold;
+     padding-top: 20px;
+     transition: 0.5s;
+ }
+
+ /* Hover effect for links in article */
+ article a:hover {
+     color: #8bc7c7;
+     cursor: pointer;
+ }
+
+ article ul {
+     list-style: none;
+     padding-top: 20px;
+     margin-left: 50px;
+ }
+
+ article li {
+     font-size: 14px;
+     font-weight: bold;
+     color: #495E57;
+ }
+
+ /* Footer */
+ footer {
+     display: flex;
+     justify-content: space-between;
+     padding: 5px 20px;
+ }
+
+ /* Footer logo */
+ footer img {
+     height: 100px;
+     width: auto;
+ }
+
+ /* Footer copyright */
+ footer small {
+     display: flex;
+     justify-content: right;
+     margin-top: 20px;
+     padding-top: 5px;
+     width: 49%;
+     border-top: solid 2px #495E57;
+     font-size: 12px;
+     font-weight: bold;
+     color: #495E57;
+ }
